@@ -19,6 +19,7 @@ function translate(){
     $("#description2_txt2").html("Sea side")
     $("#description2_txt3").html("Culturals activites")
     $("#description2_txt4").html("Sportives activities")
-    $("#la_villa_btn").htlm("The Villa")
+    $("#la_villa_btn").html("The Villa")
     $("#les_alentours_btn").html("The Surroundings")
+    $("#translateButton").attr("href","./index.html")
 }

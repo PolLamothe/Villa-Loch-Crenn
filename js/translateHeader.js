@@ -10,4 +10,7 @@ function translate(){
     $("#txt2").html("Surroundings")
     $("#txt3").html("Gallery")
     $("#txt4").html("Contact/Prices")
+    for(var i = 0; i < $("a").length; i++){
+        $("a")[i].href = $("a")[i].href + "?lang=en"
+    }
 }

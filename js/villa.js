@@ -259,3 +259,47 @@ function reset3(exeption){
         extText.style.display = "none";
     }
 }
+
+var searchParams = new URLSearchParams(window.location.search);
+
+if(searchParams.get("lang") == "en"){
+    translate()
+}
+
+function translate(){
+    $("#Sauna_txt").text("An infrared sauna for 4 people will allow you to enjoy moments of relaxation and well-being");
+    $("#Salle_a_manger_txt").text("Comfortable and bright living-dining room of more than 40m²")
+    $("#Cuisine_txt").text("Semi-open kitchen with all the necessary equipment")
+    $("#Salon_txt").text("Comfortable living room with television, DVD player, WIFI, HIFI system and numerous board games and books")
+    $("#Douche_txt").text("On the ground floor, functional bathroom with walk-in shower")
+    $("#Baignoire_txt").text("The bathroom includes a spa bathtub")
+    $("#Salle_a_manger").attr("value","Dining room")
+    $("#Cuisine").attr("value","Kitchen")
+    $("#Salon").attr("value","Living room")
+    $("#Douche").attr("value","Bathroom at the ground floor")
+    $("#Baignoire").attr("value","Bathroom at the first floor")
+    $("#Chambre1").attr("value","Bedroom 1")
+    $("#Chambre2").attr("value","Bedroom 2")
+    $("#Chambre3").attr("value","Bedroom 3")
+    $("#Chambre4").attr("value","Bedroom 4")
+    $("#Chambre5").attr("value","Bedroom 5")
+    $("#Chambre1_txt").text("Ground floor bedroom with double bed 160*200, dressing room, private bathroom with walk-in shower")
+    $("#Chambre2_txt").text("Children's room with games available, a 90*200 bunk bed and a 90*190 single bed")
+    $("#Chambre3_txt").text("Bedroom with double bed 160*200, a baby bed, sea view")
+    $("#Chambre4_txt").text("Bedroom with double bed 140*190, balcony with sea view")
+    $("#Chambre5_txt").text("Bedroom with a 90*190 bunk bed, two 90*190 beds, an extra bed, balcony with sea view")
+    $('#title1').text("The Inside")
+    $("#title2").text("The Bedrooms")
+    $("#title3").text("The Pool and the Outside")
+    $('#PiscineJour').attr("value","The pool at day")
+    $("#PiscineNuit").attr("value","The pool at night")
+    $("#exterieur").attr("value","The outside")
+    $("#PiscineJour_txt").text("An 8m * 4m swimming pool, heated from mid-April to mid-October and secured with a rigid and mesh cover (with gate closure)")
+    $('#PiscineNuit_txt').text("Night lighting in the swimming pool")
+    $("#exterieur_txt").text("Enclosed garden, parking for 3 cars. At your disposal: Cornilleau ping-pong table, slide swing, bicycles, balls and barbecue...")
+    $("#title4").text("The advantages of the villa")
+    $("#wifi_txt").text("Free WIFI")
+    $("#piscine_txt").text("Heated Pool")
+    $('#sauna_txt').text("Infrared Sauna 4 people")
+    $('#animaux_txt').text("Animals accepted")
+}
