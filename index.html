@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Made by Pol Lamothe -->
+<html lang = "fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Villa Loch'Crenn</title>
+        <link href="./css/main.css" rel="stylesheet" type="text/css">
+        <link href="./css/mutual.css" rel="stylesheet" type="text/css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ecca3bec75.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js.galerie.js"></script>
+    </head>
+    <body>
+        <div class="translate"><p>Translate</p>
+        </div>
+        <div id="header" class="header">
+
+        </div>
+        <script>
+            $("#header").load("./component/header.html")
+        </script>
+        <div class="background">
+            <img class="img1" src="./css/image/20220423_154246.webp" id="img1" onclick="openIMG(img1)">
+            <script>
+                const img1 = document.getElementById('img1');
+                if(window.innerWidth >1024){
+                img1.style.height = (window.innerHeight * 0.9) + "px";
+                img1.style.minHeight = (window.innerHeight - 100) + "px";
+                }
+            </script>
+            <p id="text1" class="text1">Villa avec piscine chauffée pour 13 personnes à 300 mètres de la mer</p>
+            <a href="reserve.html"><button class="reservebutton"><p>Contact</p></button></a>
+        </div> 
+        
+        <div class="house_stats" data-aos="slide-right" data-aos-duration = "800">   
+            <div style="margin-left:0;"><center><i class="fa-solid fa-house fa-3x"></i></center>
+                <p id="nombre_de_m²">160 m²</p></div>
+            <div><center><i class="fa-solid fa-broom fa-3x"></i></center>
+                <p id="nombre_de_pièces">Linge Et Ménage Fournis</p></div>
+            <div><center><i class="fa-solid fa-bed fa-3x"></i></center>
+                <p id="nombre_de_Chambres">5 Chambres</p></div>
+            <div><center><i class="fa-solid fa-bath fa-3x"></i></center>
+                <p id="nombre_de_salle_de_bain">2 Salles De Bains</p></div>
+            <div><center><i class="fa-solid fa-toilet fa-3x"></i></center>
+                <p id="nombre_de_toilettes">2 Toilettes</p></div>
+            <div><center><i class="fa-solid fa-water-ladder fa-3x"></i></center>
+            <p id="piscine_intérieure">Piscine Chauffée</p></div>
+            <div><center><i class="fa-solid fa-sun fa-3x"></i></center>
+            <p id="Sauna">Sauna</p></div>
+        </div>
+        
+    
+        <div class="description1" style="width:100%;">
+            <h1>Villa Loch'Crenn</h1>
+            <div class="description1_img"><div><img src="./css/image/description1.webp" class="description1_img1" id="description1_img1" onclick="openIMG(description1_img1)" data-aos="zoom-in" data-aos-duration = "800"></div>
+            <div><img src="./css/image/description1_2.webp" class="description1_img2" id="description1_img2" onclick="openIMG(description1_img2)" data-aos="zoom-in" data-aos-duration = "800"></div></div>
+            <div class="txt1"><p class="description1_txt1" id="description1_txt1">Cette Villa de 160m² à 300m de la mer est idéale pour des vacances en famille ou entre amis.</p>
+            <p class="description1_txt2" id="description1_txt2">Elle se situe dans un endroit privilégié du finistère sud, Penmarch, à 300m de la mer et du phare d'Eckmul, au calme en impasse,  a 4km de la plage Pors Carn et près de la pointe de la torche, spot des surfeurs.</p>
+            <p class="description1_txt3" id="description1_txt3">La villa offre un jardin clos de 800m² avec piscine privée 4m*8m, chauffée et sécurisée(bache rigide et grillage avec porte d'accès), 5 chambres, 2 salles de bains et un sauna pour 4 personnes.</p></div>
+        </div>
+
+        <div class="description2" style="margin-top:3%;">
+            <h1 id="AlentoursTitle">Les Alentours</h1>
+            <img src="./css/image/Pointe du raz.webp" id='alentours_img'onclick="openIMG(alentours_img)" data-aos="zoom-in" data-aos-duration = "800">
+            <div class="description2_">
+                <p class="description2_txt1" id="description2_txt1">Venez découvrir Penmarch dans le Finistère sud, ses grandes plages de sable fin (Pors Carn, Steir) ses beaux paysages sauvages, la pointe de la Torche, les petits villages traditionelles de pêcheurs. Profitez des balades à vélos ou à pieds sur les sentiers cotiers...</p>
+                <center><div data-aos="slide-left" data-aos-duration= "800"> 
+                    <div class="icons">
+                        <i class="fa-solid fa-water fa-xl"></i>
+                        <p id="description2_txt2">Bord de mer</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-chess-rook fa-xl"></i>
+                        <p id="description2_txt3">Activités culturelles</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-person-running fa-xl"></i>
+                        <p id="description2_txt4">Activités sportives</p>
+                    </div>
+                </div></center>
+            </div>
+        </div>
+    
+        <div class="seemore" style="margin-top: 10%;display: inline-block;">
+            <div class="la_villa" style="width:50%;position: relative;float: left;">
+                <img src="./css/image/voirlavilla.webp" id='voirlavilla_img'onclick="openIMG(voirlavilla_img)">
+                <a href="villa.html"><button id="la_villa_btn">La Villa</button></a>
+            </div>
+            <div class="les_alentours" style="position: relative;width: 50%;float: right;">
+                <img src="./css/image/lesalentours.webp" id='lesalentours_img'onclick="openIMG(lesalentours_img)">
+                <a href="alentours.html"><button id="les_alentours_btn">Les Alentours</button></a>
+            </div>
+        </div>
+        <div class="maps_background" style="padding-top: 2%;">
+            <button class="maps_button">Penchmarch, finistère</button>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.9923220936525!2d-4.372143683757461!3d47.80098458252183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48173bd6d7a68fcb%3A0x9f1677835415a46a!2sVilla%20Loch%20Crenn%20%3A%20Location%20maison%20de%20vacances%20contemporaine%20proche%20de%20la%20plage%2C%20vue%20mer%2C%20avec%20piscine%20chauff%C3%A9e%2C%20et%20jardin%20dans%20le%20Finist%C3%A8re%20sud%20%C3%A0%20Penmarch%20en%20Bretagne%20%E2%80%93%20Jusqu&#39;%C3%A0%2014%20personnes%20(Animaux%20accept%C3%A9s)!5e0!3m2!1sfr!2sfr!4v1669566814968!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+            <div class="end">
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({once : 'true',});
+        </script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

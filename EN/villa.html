@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Made by Pol Lamothe -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Villa</title>
+        <link href="./css/villa.css" rel="stylesheet">
+        <link href="./css/mutual.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ecca3bec75.js" crossorigin="anonymous"></script>
+    </head>
+    <body bgcolor="#C6C6DC">
+        <div class="header">
+            <div class="logo">Villa Loch'Crenn</div>
+            <a href="index.html"><div class="navbutton navbutton--Accueil"><p>Accueil</p></div></a>
+            <div class="navbutton" style="background-color:#C6C6DC;"><p>La Villa</p></div>
+            <a href="alentours.html"><div class="navbutton"><p>Alentours</p></div></a>
+            <a href="galerie.html"><div class="navbutton navbutton--Galerie"><p>Galerie</p></div></a>
+            <a href="reserve.html"><div class="navbutton navbutton--Contact"><p>Contact/Tarif</p></div></a>
+            
+        </div>
+
+        <header class="Global1" id="Global1" data-aos="zoom-in" data-aos-duration = "800">
+                <div>
+                    <h1>L'intérieur</h1>
+                    <form class="choose">
+                        <input type="button" id="Sauna" value="Sauna" style="border-top-width:1px;">
+                        <p id="Sauna_txt" style="display: none;" class="int_txt">Un sauna infrarouge pour 4 personnes vous permettra de profiter de moments de détente et de bien être</p>
+                        <input type="button" id="Salle_a_manger" value="Salle à manger">
+                        <p id="Salle_a_manger_txt" style="display: none;" class="int_txt">Salon-Salle à manger confortable et lumineux de plus de 40m²</p>
+                        <input type="button" id="Cuisine" value="Cuisine">
+                        <p id="Cuisine_txt" style="display:none;" class="int_txt">Cuisine semi-ouverte avec tout l'équipement nécéssaire</p>
+                        <input type="button" id="Salon" value="Salon">
+                        <p id="Salon_txt" style="display:none;" class="int_txt">Salon confortable avec télévision, lecteur DVD, WIFI, chaine HIFI et nombreux jeux de sociétés et livres</p>
+                        <input type="button" id="Douche" value="Salle D'Eau RDC">
+                        <p id="Douche_txt" style="display:none;" class="int_txt">Au rez de chaussée, salle d'eau fonctionnelle avec douche à l'italienne</p>
+                        <input type="button" id="Baignoire" value="Salle De Bain Etage">
+                        <p id="Baignoire_txt" style="display:none;" class="int_txt">La salle de bain comprend une baignoire balnéothérapique</p>
+                    </form>
+                </div>
+                <img id="int_img" class="int_img" style="display:none;">
+        </header>
+
+        <header class="Global2" id="Global2" data-aos="zoom-in" data-aos-duration = "800">
+            <div>
+                <h1>Les Chambres</h1>
+                <form class="choose2">
+                    <input type="button" id="Chambre1" value="Chambre 1" style="border-top-width:1px;">
+                    <p id="Chambre1_txt" style="display: none;" class="chambre_txt">Chambre du rez de chaussée avec lit double 160*200, dressing, salle de bains privative avec douche à l'italienne</p>                    
+                    <input type="button" id="Chambre2" value="Chambre 2">
+                    <p id="Chambre2_txt" style="display: none;" class="chambre_txt">Chambre enfants avec jeux à disposition, un lit superposé 90*200 et un lit simple 90*190</p>
+                    <input type="button" id="Chambre3" value="Chambre 3">
+                    <p id="Chambre3_txt" style="display:none;" class="chambre_txt">Chambre avec lit double 160*200, un lit bébé, vue mer</p>
+                    <input type="button" id="Chambre4" value="Chambre 4">
+                    <p id="Chambre4_txt" style="display:none;" class="chambre_txt">Chambre avec lit double 140*190, balcon avec vue mer</p>
+                    <input type="button" id="Chambre5" value="Chambre 5">
+                    <p id="Chambre5_txt" style="display:none;" class="chambre_txt">Chambre avec un lit superposé 90*190, deux lits 90*190, un lit d'appoint, balcon avec vue mer</p>
+                </form>
+            </div>
+            <img id="chambre_img" class="chambre_img" style="display:none;">
+        </header>
+        
+        <header class="Global3" data-aos="zoom-in" data-aos-duration = "800">
+            <div>
+                <h1>La Piscine Et L'extérieur</h1>
+                <form class="choose3">
+                    <input type="button" id="PiscineJour" value="piscine Jour" style="border-top-width:1px;">
+                    <p id="PiscineJour_txt" style="display:none;" class="piscine_txt">Une piscine de 8m * 4m, chauffée de mi avril a mi octobre et sécurisée avec bache rigide et grillagée(avec fermeture par portillon)</p>
+                    <input type="button" id="PiscineNuit" value="Piscine Nuit">
+                    <p id="PiscineNuit_txt" style="display:none;" class="piscine_txt">Éclairage nocture dans la piscine</p>
+                    <input type="button" id="exterieur" value="Exterieur">
+                    <p id="exterieur_txt" style="display: none;" class="piscine_txt">Jardin clos, parking pour 3 voitures.<br> A votre disposition: table de ping-pong Cornilleau, balançoire-toboggan, vélos, balons et barbecue...</p>
+                </form>
+            </div>
+            <img id="image3" style="display:none;">
+        </header>
+        <script src="villa.js" type="text/javascript"></script>
+
+        <div class="Global4">
+            <h1>Les atouts de la villa</h1>
+            <div data-aos="zoom-in" data-aos-duration = "800">
+                <div class="Atouts" style="margin-left: 0%;">
+                    <i class="fa-solid fa-wifi fa-2x"></i>
+                    <p>Wifi Gratuit</p>
+                </div>
+                <div class="Atouts">
+                    <i class="fa-solid fa-water-ladder fa-2x"></i>
+                    <p>Piscine Chauffée</p>
+                </div>
+                <div class="Atouts">
+                    <i class="fa-solid fa-sun fa-2x"></i>
+                    <p>Sauna Infrarouge 4pers</p>
+                </div>
+                <div class="Atouts" style="margin-right:0%;">
+                    <i class="fa-solid fa-dog fa-2x"></i>
+                    <p>Animaux acceptés</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="maps_background" style="padding-top: 2%;float: left;">
+            <button class="maps_button">Penchmarch, finistère</button>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.9923220936525!2d-4.372143683757461!3d47.80098458252183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48173bd6d7a68fcb%3A0x9f1677835415a46a!2sVilla%20Loch%20Crenn%20%3A%20Location%20maison%20de%20vacances%20contemporaine%20proche%20de%20la%20plage%2C%20vue%20mer%2C%20avec%20piscine%20chauff%C3%A9e%2C%20et%20jardin%20dans%20le%20Finist%C3%A8re%20sud%20%C3%A0%20Penmarch%20en%20Bretagne%20%E2%80%93%20Jusqu&#39;%C3%A0%2014%20personnes%20(Animaux%20accept%C3%A9s)!5e0!3m2!1sfr!2sfr!4v1669566814968!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+            <div class="end">
+            </div>
+        </div> 
+        
+        <div style="display: none;">
+            <img src="./css/image/Sauna.webp">
+            <img src="./css/image/Salle a manger.webp">
+            <img src="./css/image/Cuisine 1.webp">
+            <img src="./css/image/Salon.webp">
+            <img src="./css/image/Baignoire.webp">
+            <img src="./css/image/Douche.webp">
+            <img src="./css/image/Chambre1.webp">
+            <img src="./css/image/Chambre2.webp">
+            <img src="./css/image/Chambre3.webp">
+            <img src="./css/image/Chambre4.webp">
+            <img src="./css/image/Chambre5.webp">
+            <img src="./css/image/PiscineJour.webp">
+            <img src="./css/image/PiscineNuit.webp">
+            <img src="./css/image/exterieur.jpg">
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({once : 'true',});
+        </script>
+    </body>
+</html>    

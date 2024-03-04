@@ -1,0 +1,333 @@
+@font-face {
+    font-family:Apple Chancery;
+    src: url("./police/Apple_Chancery_Font_Family_\(Fontmirror\)/Apple Chancery 100.ttf");
+}
+.Global1{
+    position: relative;
+    display: inline;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+    height: fit-content;
+}
+.Global1 div{
+    margin-right: 5%;
+    position: relative;
+    background-color: white;
+    float: right;
+    width: 30%;
+    min-width: 400px;
+    margin-top: 8%; 
+    padding-top: 5%;
+    border-radius: 25px;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.choose{
+    padding-top: 6%;
+}
+.choose input{
+    display: list-item;
+    position: relative;
+    height:55px;
+    width: 100%;
+    background-color: white;
+    border-width: 1px;
+    border: 1px solid #DFDFDF;
+    border-top-width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #202020;
+    cursor: pointer;
+}
+.Global1 h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Apple Chancery;
+    color: #456DC3;
+}
+.int_txt{
+    text-align: center;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    animation: apparition 2s;
+}
+.int_img{
+    position: relative;
+    float: right;
+    object-fit: cover;
+    margin-right: 10%;
+    margin-top: 6%;
+    border: none;
+    width: 40%;
+    min-width: 400px;
+    border-radius: 20px;
+    transition: all 1s;
+    animation: apparition 2s;
+}
+
+.Global2{
+    position: relative;
+    display: inline;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+.Global2 div{
+    margin-right: 5%;
+    position: relative;
+    background-color: white;
+    float: left;
+    width: 30%;
+    min-width: 400px;
+    margin-top: 8%;
+    margin-left: 5%;
+    padding-top: 5%;
+    border-radius: 25px;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.choose2{
+    padding-top: 6%;
+}
+.choose2 input{
+    display: list-item;
+    position: relative;
+    height:55px;
+    width: 100%;
+    background-color: white;
+    border-width: 1px;
+    border: 1px solid #DFDFDF;
+    border-top-width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #202020;
+    cursor: pointer;
+}
+.Global2 h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: Apple Chancery;
+    color: #456DC3;
+}
+.chambre_txt{
+    text-align: center;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    animation: apparition 2s;
+}
+.chambre_img{
+    position: relative;
+    float: right;
+    object-fit: cover;
+    margin-right: 10%;
+    margin-top: 6%;
+    border: none;
+    width: 40%;
+    min-width: 400px;
+    border-radius: 20px;
+    transition: all 1s;
+    animation: apparition 2s;
+}
+
+.Global3{
+    position: relative;
+    display: inline;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+.Global3 div{
+    margin-right: 5%;
+    position: relative;
+    background-color: white;
+    float: right;
+    width: 30%;
+    min-width: 400px;
+    margin-top: 8%; 
+    padding-top: 5%;
+    border-radius: 25px;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.Global3 h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Apple Chancery;
+    color: #456DC3;
+}
+.piscine_txt{
+    text-align: center;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    animation: apparition 2s;
+}
+.Global3 img{
+    position: relative;
+    float: right;
+    object-fit: cover;
+    margin-right: 10%;
+    margin-top: 6%;
+    border: none;
+    width: 40%;
+    min-width: 400px;
+    border-radius: 20px;
+    transition: all 1s;
+    animation: apparition 2s;
+}
+.choose3{
+    padding-top: 6%;
+}
+.choose3 input{
+    display: list-item;
+    position: relative;
+    height:55px;
+    width: 100%;
+    background-color: white;
+    border-width: 1px;
+    border: 1px solid #DFDFDF;
+    border-top-width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #202020;
+    cursor: pointer;
+}
+
+.Global4{
+    background-color: white;
+    z-index: -1;
+    margin-top: 10%;
+    padding-bottom: 6%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.Global4 h1{
+    font-size: 35px;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Apple Chancery;
+    color: #456DC3;
+}
+.Global4 div{
+    text-align: center;
+    margin-top: 3%;
+}
+.Atouts{
+    position: relative;
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.Atouts i{
+    color: #202020;
+    z-index: 1;
+    position: static;
+    text-align: center;
+}
+.Atouts p{
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 1024px){
+    .Global1 div{
+        min-width: 0px;
+        width: 40%;
+        padding-top: 0%;
+        float: right;
+        margin-right: 2%;
+    }
+    .Global2 div{
+        min-width: 0px;
+        width: 40%;
+        padding-top: 0%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+    .Global3 div{
+        min-width: 0px;
+        width: 40%;
+        padding-top: 0%;
+        float: right;
+        margin-right: 2%;
+    }
+    .int_img{
+        min-width: 0px;
+        margin-top: 8%;
+        width: 50%;
+        margin-right: 0%;
+        margin-left: 1%;
+        float: left;
+    }
+    .chambre_img{
+        min-width: 0px;
+        margin-top: 8%;
+        width: 50%;
+        margin-right: 1%;
+        margin-left: 0px;
+        float: right;
+    }
+    .Global3 img{
+        min-width: 0px;
+        margin-top: 8%;
+        width: 50%;
+        margin-right: 0%;
+        margin-left: 1%;
+        float: left;
+    }
+    .choose input{
+        height: 30px;
+        font-size: 11px;
+        border-radius: 15px;
+    }
+    .choose p{
+        display: none!important;
+    }
+    .choose2 input{
+        height: 30px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .choose2 p{
+        display: none!important;
+    }
+    .choose3 input{
+        height: 30px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+    .choose3 p{
+        display: none!important;
+    }
+    .Atouts{
+        scale: 0.7;
+        margin-left: 0%;
+    }
+}
+@keyframes apparition {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Raleway;
+    src: url('./police/Raleway/Raleway-VariableFont_wght.ttf');
+}
+.intro img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.penmarch{
+    margin-top: 5%;
+    display: grid;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.penmarch img{
+    grid-column: 1;
+    grid-row: 1/15;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.penmarch p{
+    grid-column: 2;
+    font-size: 18px;
+    margin-left: 10%;
+    grid-row: 2;
+    letter-spacing: 1px;
+}
+.penmarch h1{
+    grid-column: 2;
+    font-family: Apple Chancery;
+    color: #456DC3;
+    grid-row: 1;
+    margin-left: 10%;
+}
+.penmarch a{
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+    font-size: 18px;
+}
+.penmarch p:hover{
+    text-decoration: underline;
+}
+
+.lieux i{
+    position: absolute;
+    top: 30%;
+}
+.lieux p{
+    width: max-content;
+    margin-left: 7%;
+    position: relative;
+    font-family: raleway;
+    font-size: 14px;
+}
+.lieux{
+    position: relative;
+    margin-left: 10%;
+    height: min-content;
+    margin-top: -4%;
+}
+
+.lieux1{
+    grid-column: 2;
+    grid-row: 5;
+}
+.lieux2{
+    grid-column: 2;
+    grid-row: 6;
+}
+.lieux3{
+    grid-column: 2;
+    grid-row: 7;
+}
+.lieux4{
+    grid-column: 2;
+    grid-row: 8;
+}
+.lieux5{
+    grid-column: 2;
+    grid-row: 9;
+}
+.lieux6{
+    grid-column: 2;
+    grid-row: 10;
+}
+.lieux7{
+    grid-column: 2;
+    grid-row: 11;
+}
+.lieux8{
+    grid-column: 2;
+    grid-row: 12;
+}
+.lieux9{
+    grid-column: 2;
+    grid-row: 13;
+}
+
+.description{
+    text-align: center;
+    margin-top: 2%;
+}
+.description p{
+    font-size: 20px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: Raleway;
+    letter-spacing: 1px;
+}
+
+.picture{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.picture img{
+    width: 33.33vw;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+@media screen and (max-width: 1024px){
+    .penmarch{
+        float: left;
+        display: list-item;
+        width: 100%;
+        text-align: center;
+    }
+    .penmarch img{
+        width: 70%;
+    }
+    .penmarch p{float: left;}
+    .penmarch i{display: none;}
+}

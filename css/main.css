@@ -1,0 +1,415 @@
+@font-face {
+    font-family:Apple Chancery;
+    src: url("./police/Apple_Chancery_Font_Family_\(Fontmirror\)/Apple Chancery 100.ttf");
+}
+@font-face {
+    font-family: Raleway;
+    src: url('./police/Raleway/Raleway-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: Dancing;
+    src: url('./police/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+.navbutton--Accueil{
+    background-color: #C6C6DC;
+}
+.background{
+    overflow:hidden
+}
+.img1{
+    filter: blur(1px);
+    z-index: 0;
+    display: block;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    animation: zoom 10s infinite alternate;
+}
+@keyframes zoom{
+    from{
+        width:100%;
+        -webkit-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:1s ease-in-out;
+        transition:1s ease-in-out;
+    }
+    to{
+        width:100%;
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1);
+        -webkit-transition:1s ease-in-out;
+        transition:1s ease-in-out;
+    }
+}
+.text1{
+    position: absolute;
+    width: max-content;
+    display: block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    z-index: 2;
+    margin-top: 7%;
+    font-family:Dancing;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px black;
+    top: 35%;
+}
+::marker{
+    color: white;
+}
+.reservebutton{
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 4%;
+    min-height: 50px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 20px;
+    background: none;
+    border: solid 1px black;
+    border-width: 3px;
+    margin-top: 6%;
+    display: block;
+    color: lightgray;
+    transition: all 0.4s;
+}
+.reservebutton:hover{
+    width: 21%;
+    height: 6%;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid white;
+    transition: all 0.4s;
+}
+.reservebutton p{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    filter: opacity(100%)!important;
+}
+
+.house_stats i{
+    color: #202020;
+    z-index: 1;
+    position: static;
+    text-align: center;
+}
+.house_stats p{
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.house_stats div{
+    width: max-content;
+    position: relative;
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 6%;
+}
+.house_stats{
+    text-align: center;
+    margin-top: 1%;
+    /*animation: spawn 3s;*/
+}
+/*@keyframes spawn {
+      from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
+.description1{
+    margin-top: 8%;
+    display: grid;
+}
+.txt1{
+    display: list-item;
+    position: relative;
+    left: 15%;
+    width: 250%;
+    grid-column: 4;
+    grid-row: 1;
+    margin-top:20%;
+}
+.description1_img{
+    position: relative;
+    text-align: right;
+    width: fit-content;
+    grid-column: 6;
+    grid-row: 1;
+    right: 10%;
+}
+.description1 p{
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    letter-spacing: 2px;
+    width: 60%;
+    text-align: right;
+}
+.description1_img1{
+    width: 20%;
+    aspect-ratio: 14/9;
+    min-width: 400px;
+    object-fit: cover;
+    border-radius: 15px; 
+}
+.description1 h1{
+    font-family: Apple Chancery;
+    color: #456DC3;
+    font-style: italic;
+    width: max-content;
+    grid-column: 5;
+    grid-row: 1;
+}
+.description1_img2{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 15%;
+    min-height: 150px;
+    min-width: 300px;
+    height: 10%;
+}
+
+.description2 h1{
+    font-family: Apple Chancery;
+    position: absolute;
+    display: inline-block;
+    color: #456DC3;
+    margin-top: 1.5%;
+    left: 42%;
+    font-style: italic; 
+}  
+.description2 img{
+    width: 23%;        
+    border-radius: 15px; 
+    left: 15%;
+    position: absolute;                                   
+}
+.description2_txt1{                  
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                      
+    letter-spacing: 2px;
+}
+.description2_{
+    position: relative;
+    width: 50%;
+    right: -40%;
+    display: inline-block;
+    margin-top: 7%;
+}
+.description2_icons{
+    position: relative;
+    display: inline-block;
+}
+.icons{
+    position: relative;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.icons i{
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #202020;
+}
+.icons p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}  
+
+.la_villa img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 15/7;
+    position: relative;
+    display: inline-block;
+}
+.la_villa button{
+    position: absolute;
+    display: inline-block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);                                                                     
+    width: 20%;                                         
+    height: 8%;
+    min-height: 50px;                                 
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-family: raleway;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 1px;
+    transition: all 0.3s;   
+}
+.les_alentours img{
+    aspect-ratio: 15/7;
+    position: relative;
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    z-index: 0;
+}
+.les_alentours button{
+    position: absolute;
+    display: inline-block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;                                         
+    height: 8%;
+    min-height: 50px;                                 
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: raleway;
+    border: 2px solid black;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 1px;   
+    transition: all 0.3s;
+}
+.seemore button:hover{
+    width: 24%;
+    height: 12%;
+    transition: all 0.3s;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid white;
+}
+
+.translate{
+    width: 6%;
+    height: 3%;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    top: 97%;
+    text-align: center;
+    margin-left: 2%;
+    min-width: 100px;
+    animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.translate p{
+    letter-spacing: 1px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 5%;
+    font-family:Raleway;
+    font-weight: bold;
+    font-size: smaller;
+}
+@media screen and (max-width: 1024px){
+    .text1{
+        width: 100%;
+        font-size: 23px;
+        text-align: center;
+        top: 22%;
+    }
+    .house_stats i{
+        scale: 0.6;
+    }
+    .house_stats p{
+        font-size: smaller;
+    }
+    .house_stats{
+        margin-left: 2%;
+    }
+    .reservebutton{
+        display: none;
+    }
+    .reservebutton p{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .description1{margin-top: 30%;display: inline;}
+    .description1 h1{
+        float: right;
+        margin-right: 10%;
+    }
+    .description1 p{display: none;}
+    .txt1{width: 0px;}
+    .description1_img{
+        position: none;
+        float: right;
+    }
+    .description1_img1{min-width:350px;}
+
+    .house_stats{
+        margin-top: 10%;
+    }
+    .description2 img{
+        min-width: 300px;
+        position: relative;
+    }
+    .description2_txt1{
+        display: none;
+    }
+    .description2 img{
+        margin-top: 20%;
+    }
+    .description2 h1{
+        margin-top: 5%;
+    }
+    .icons{
+        display: none;
+    }
+    .la_villa button{
+        width: 40%;
+        background-color: rgb(0, 0, 0, 0.4);
+        color: white;
+    }
+    .les_alentours button{
+        width: 40%;
+        background-color: rgb(0, 0, 0, 0.4);
+        color: white;
+    }
+    .la_villa{
+        width: 100%!important;
+        float: none;
+    }
+    .les_alentours{
+        width: 100%!important;
+        float: none;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Birthstone;
+    src: url("./police/birthstone/Birthstone-Regular.ttf");
+}
+@font-face {
+    font-family:Apple Chancery;
+    src: url("./police/Apple_Chancery_Font_Family_\(Fontmirror\)/Apple Chancery 100.ttf");
+}
+@font-face {
+    font-family: Raleway;
+    src: url(./police/Raleway/Raleway-VariableFont_wght.ttf);
+}
+body{
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;                                                                                                                            
+}                                                                                                                                                                                                                                                      
+.header{
+    background-color: #202020;
+    width: 100%;
+    z-index: 0;
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #456DC3;
+    font-weight: 600;
+    font-family: birthstone;
+    font-size: 40px;
+    width: auto;
+    left: 5%;
+    top: 2%;
+    display: inline-block;
+    position: absolute;
+}
+.navbutton{
+    height: 100%;
+    min-height: 100px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+    color: #456DC3;
+    left: 55%;
+    margin-left: -3px;
+    margin-right: -3px;
+    transition: all 0.2s;
+}
+.navbutton p{
+    font-family: Raleway;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.navbutton:hover{
+    background: #C6C6DC;
+}
+.navbutton--Contact{
+    width: 150px;
+}
+
+.maps{
+    margin-top: 2%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.maps_button{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    height: 5%;
+    min-height: 72px;
+    width: 15%;
+    min-width: 384px;
+    border-radius: 25px;
+    font-family: Apple Chancery;
+    font-size: 25px;
+    font-weight: 600;
+}
+.maps_background{
+    width: 100%;
+    background-color: #202020;
+    margin-top: -1%;
+    height: max-content;
+}
+.end{
+    width: 100%;
+    background-color: white;
+    margin-top: 3%;
+    height: 5%;
+    position: relative;
+    display: inline-block;
+}
+.end p{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}  
+@media screen and (max-width: 1024px)
+{
+    .navbutton{
+        width: 24%;
+        left: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .navbutton--Contact{
+        width: 27%;
+        font-size:smaller;
+    }
+    .maps_button{
+        min-width: 270px;
+        min-height: 60px;
+    }
+    .navbutton--Galerie{
+        display: none;
+    }
+    .maps{height:auto;}
+}
