@@ -7,17 +7,13 @@
         <link href="./css/galerie.css" rel="stylesheet" type="text/css">
         <link href="./css/mutual.css" rel="stylesheet" type="text/css">
         <script src="https://kit.fontawesome.com/ecca3bec75.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body>
-        <div class="header">
-            <div class="logo">Villa Loch'Crenn</div>
-            <a href="index.html"><div class="navbutton navbutton--Accueil"><p>Accueil</p></div></a>
-            <a href="villa.html"><div class="navbutton"><p>La Villa</p></div></a>
-            <a href="alentours.html"><div class="navbutton"><p>Alentours</p></div></a>
-            <div class="navbutton" style="background-color:#C6C6DC;"><p>Galerie</p></div>
-            <a href="reserve.html"><div class="navbutton navbutton--Contact"><p>Contact/Tarif</p></div></a>
-            
-        </div>
+        <div class="header" id="header"></div>
+        <script>
+            $("#header").load("./component/header.html")
+        </script>
 
         <div class="content">
             <img id="img1" class="img" src="./css/galerie/img1.webp" onclick="openIMG(img1)">
