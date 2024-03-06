@@ -11,6 +11,9 @@ function translate(){
     $("#txt3").html("Gallery")
     $("#txt4").html("Contact/Prices")
     for(var i = 0; i < $("a").length; i++){
+        if($("a")[i].id == "translateButton"){
+            continue
+        }
         $("a")[i].href = $("a")[i].href + "?lang=en"
     }
 }
