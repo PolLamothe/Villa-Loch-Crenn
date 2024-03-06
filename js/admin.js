@@ -3,5 +3,9 @@ var listbutton = document.getElementById('listbutton');
 
 listbutton.addEventListener('click',updatelist);
 function updatelist(){
-    list.style.display="";
+    if(list.style.display=="inherit"){
+        list.style.display="none";
+        return;
+    }
+    list.style.display="inherit";
 }

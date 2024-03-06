@@ -1,5 +1,5 @@
 <?php
-    require "credentials.php"
+    require "./credentials.php";
 
     if($_POST['secure'] == $secureKey){
         $file = fopen('reserve.txt','r+');

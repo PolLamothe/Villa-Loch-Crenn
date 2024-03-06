@@ -8,7 +8,7 @@
     require '../PHPMailermaster/src/Exception.php';
     require '../PHPMailermaster/src/PHPMailer.php';
     require '../PHPMailermaster/src/SMTP.php';
-    require "./credentials.php"
+    require "./credentials.php";
 
     //Load Composer's autoloader
     require '../vendor/autoload.php';
