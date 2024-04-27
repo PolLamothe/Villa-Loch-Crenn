@@ -1,3 +1,6 @@
+.navbutton--Galerie{
+    background-color: #C6C6DC;
+}
 .content img{
     width: 33.33%;
     object-fit: cover;

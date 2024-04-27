@@ -2,6 +2,9 @@
     font-family: Raleway;
     src: url('./police/Raleway/Raleway-VariableFont_wght.ttf');
 }
+.navbutton--Alentours{
+    background-color: #C6C6DC;
+}
 .intro img{
     width: 100%;
     object-fit: cover;
